@@ -1,0 +1,23 @@
+.home {
+	padding: 56px 20px;
+	min-height: 100%;
+	width: 100%;
+}
+
+.playSpace {
+  margin: 1.5rem auto;
+  padding: 1.5rem;
+  max-width: 960px;
+  background-image: url('/assets/playspace-background.png');
+  color: #fff;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.hidden {
+  display: none;
+}
